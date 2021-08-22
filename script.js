@@ -275,7 +275,6 @@ function main() {
   generateFinalPage();
   handleAnswerSubmit();
   handleFinalAnswer();
-  generateFeedback();
 }
 
 $(main);
