@@ -4,13 +4,14 @@
   "description": "Portfolio project for Mark Baker",
   "main": "index.html",
   "scripts": {
+    "deploy": "npm run build && gh-pages -d dist -b master",
     "lite": "lite-server",
-    "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Mark Baker",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "lite-server": "^2.5.4"
   },
   "dependencies": {
