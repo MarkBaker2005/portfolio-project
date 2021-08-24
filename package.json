@@ -4,9 +4,10 @@
   "description": "Portfolio project for Mark Baker",
   "main": "index.html",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d dist -b master",
+    "deploy": "gh-pages -d dist",
     "lite": "lite-server",
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "echo 'build script executed"
   },
   "author": "Mark Baker",
   "license": "ISC",
@@ -28,5 +29,5 @@
   "bugs": {
     "url": "https://github.com/MarkBaker2005/portfolio-project/issues"
   },
-  "homepage": "https://github.com/MarkBaker2005/portfolio-project#readme"
+  "homepage": "https://MarkBaker2005.github.io/portfolio-project"
 }
