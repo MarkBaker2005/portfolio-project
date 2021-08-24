@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+
+    <title>B&M8</title>
+  </head>
+
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="node_modules/bootstrap-social/bootstrap-social.css"
+  />
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+
+    <title>B&M8</title>
+  </head>
+
+  <body>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>B&M8</h1>
+            <h2>find your bandmate</h2>
+          </div>
+          <div class="col col-md-4 col-xl-2 mt-5">
+            <a
+              data-toggle="modal"
+              role="button"
+              class="btn btn-lg btn-success"
+              data-target="#loginModal"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><i class="fa fa-music fa-lg mr-2"></i
+        ></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nucampNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nucampNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-home fa-lg"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiz.html"
+                ><i class="fa fa-question fa-lg"></i> Quiz</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html"
+                ><i class="fa fa-address-card fa-lg"></i> Contact</a
+              >
+            </li>
+          </ul>
+          <span class="navbar-text ml-auto">
+            <a role="button" data-toggle="modal" data-target="#loginModal">
+              <i class="fa fa-sign-in"></i> Sign Up
+            </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <div class="imagine">
+      <div class="container">
+        <div class="row py-3 align-items-center">
+          <div class="col-lg-1 col-xl-1 m-auto logo">
+            <img class="img" src="img/logo-no-text.png" alt="bandmate-logo" />
+          </div>
+          <div class="col-lg-11 col-xl-4 m-auto">
+            <h1>Bandmate's mission:</h1>
+          </div>
+          <div class="col-xl-7 m-auto">
+            <h4>
+              To connect people who are of like mind. To encourage
+              collaboration. Like most things in life, we work better together.
+              Music is no exception. Create, share, relate, and escape.
+              Find your bandmate.
+              
+            </h4>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="car-wrapper">
+      <div class="container">
+        <div class="row row-content">
+          <div class="col-md-8 mx-auto">
+            <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#homeCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#homeCarousel" data-slide-to="1"></li>
+                <li data-target="#homeCarousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block w-100 img-fluid"
+                    src="img/music-room.jpg"
+                    alt="Music Room"
+                  />
+                  <div class="carousel-caption">
+                    <h4>Search Locally</h4>
+                    <p class="d-none d-sm-block">
+                      Bandmate is an app that works similar to dating apps, but
+                      rather than finding a local date, you are looking for
+                      local musicians.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100 img-fluid"
+                    src="img/music-red.jpg"
+                    alt="React Lake Campground"
+                  />
+                  <div class="carousel-caption">
+                    <h4>Create a profile</h4>
+                    <p class="d-none d-sm-block">
+                      Create a profile that highlights the instruments you play,
+                      what kind of music you are into, and what you are looking
+                      for in a bandmate.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100 img-fluid"
+                    src="img/music-visual.jpg"
+                    alt="Chrome River Campground"
+                  />
+                  <div class="carousel-caption">
+                    <h4>Create music</h4>
+                    <p class="d-non d-sm-block">
+                      In this modern age of technology, we are losing true
+                      connection. We are more in touch with each others outer
+                      shells, less in touch with who we really are. Music
+                      exposes us. Find a true friend, find a bandmate.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#homeCarousel"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#homeCarousel"
+                role="button"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Join Bandmate</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-12">
+                    <label class="sr-only" for="loginEmail"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control form-control-sm"
+                      id="loginEmail"
+                      placeholder="Enter email"
+                    />
+                  </div>
+                  <div class="form-group col-12">
+                    <label class="sr-only" for="address">Address</label>
+                    <input
+                      type="address"
+                      class="form-control form-control-sm"
+                      id="Address"
+                      placeholder="Address"
+                    />
+                  </div>
+                  <div class="form-group col-8">
+                    <label class="sr-only" for="inputCity">City</label>
+                    <input
+                      type="text"
+                      class="form-control form-control-sm"
+                      id="inputCity"
+                      placeholder="City"
+                    />
+                  </div>
+                  <div class="form-group col-4">
+                    <label class="sr-only" for="inputState">State</label>
+                    <select
+                      id="inputState"
+                      class="form-control form-control-sm"
+                      placeholder="State"
+                    >
+                      <option selected value="">State...</option>
+                      <option value="ZZ">None</option>
+                      <option value="">-- UNITED STATES --</option>
+                      <option value="AL">Alabama</option>
+                      <option value="AK">Alaska</option>
+                      <option value="AZ">Arizona</option>
+                      <option value="AR">Arkansas</option>
+                      <option value="CA">California</option>
+                      <option value="CO">Colorado</option>
+                      <option value="CT">Connecticut</option>
+                      <option value="DE">Delaware</option>
+                      <option value="FL">Florida</option>
+                      <option value="GA">Georgia</option>
+                      <option value="HI">Hawaii</option>
+                      <option value="ID">Idaho</option>
+                      <option value="IL">Illinois</option>
+                      <option value="IN">Indiana</option>
+                      <option value="IA">Iowa</option>
+                      <option value="KS">Kansas</option>
+                      <option value="KY">Kentucky</option>
+                      <option value="LA">Louisiana</option>
+                      <option value="ME">Maine</option>
+                      <option value="MD">Maryland</option>
+                      <option value="MA">Massachusetts</option>
+                      <option value="MI">Michigan</option>
+                      <option value="MN">Minnesota</option>
+                      <option value="MS">Mississippi</option>
+                      <option value="MO">Missouri</option>
+                      <option value="MT">Montana</option>
+                      <option value="NE">Nebraska</option>
+                      <option value="NV">Nevada</option>
+                      <option value="NH">New Hampshire</option>
+                      <option value="NJ">New Jersey</option>
+                      <option value="NM">New Mexico</option>
+                      <option value="NY">New York</option>
+                      <option value="NC">North Carolina</option>
+                      <option value="ND">North Dakota</option>
+                      <option value="OH">Ohio</option>
+                      <option value="OK">Oklahoma</option>
+                      <option value="OR">Oregon</option>
+                      <option value="PA">Pennsylvania</option>
+                      <option value="RI">Rhode Island</option>
+                      <option value="SC">South Carolina</option>
+                      <option value="SD">South Dakota</option>
+                      <option value="TN">Tennessee</option>
+                      <option value="TX">Texas</option>
+                      <option value="UT">Utah</option>
+                      <option value="VT">Vermont</option>
+                      <option value="VA">Virginia</option>
+                      <option value="WA">Washington</option>
+                      <option value="WV">West Virginia</option>
+                      <option value="WI">Wisconsin</option>
+                      <option value="WY">Wyoming</option>
+                      <option value="">-- CANADA --</option>
+                      <option value="AB">Alberta</option>
+                      <option value="BC">British Columbia</option>
+                      <option value="MB">Manitoba</option>
+                      <option value="NB">New Brunswick</option>
+                      <option value="NF">Newfoundland and Labrador</option>
+                      <option value="NT">Northwest Territories</option>
+                      <option value="NS">Nova Scotia</option>
+                      <option value="NU">Nunavut</option>
+                      <option value="ON">Ontario</option>
+                      <option value="PE">Prince Edward Island</option>
+                      <option value="PQ">Quebec</option>
+                      <option value="SK">Saskatchewan</option>
+                      <option value="YT">Yukon Territory</option>
+                      <option value="">-- AUSTRALIA --</option>
+                      <option value="AC">Australian Capital Territory</option>
+                      <option value="NW">New South Wales</option>
+                      <option value="NO">Northern Territory</option>
+                      <option value="QL">Queensland</option>
+                      <option value="SA">South Australia</option>
+                      <option value="TS">Tasmania</option>
+                      <option value="VC">Victoria</option>
+                      <option value="WS">Western Australia</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-12">
+                    <label class="sr-only" for="loginPassword"
+                      >Choose Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control form-control-sm"
+                      id="loginPassword"
+                      placeholder="Choose Password"
+                    />
+                  </div>
+                  <div class="form-group col-12">
+                    <label class="sr-only" for="loginPassword"
+                      >Confirm Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control form-control-sm"
+                      id="loginPassword"
+                      placeholder="Confirm Password"
+                    />
+                  </div>
+                  <div class="col">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" />
+                      <label class="form-check-label">Remember Me</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-sm ml-auto"
+                    data-dismiss="modal"
+                  >
+                    Cancel
+                  </button>
+                  <button type="submit" class="btn btn-success btn-sm ml-1">
+                    Sign up
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quiz">
+      <div class="container">
+        <div class="row">
+          <div class="col my-3">
+            <h2>Try our rock quiz!</h2>
+            <a href="quiz.html" class="btn btn-primary"> Click to start </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 offset-1">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="quiz.html">Quiz</a></li>
+              <li><a href="contactus.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-5 text-center">
+            <h5 class="social">Social</h5>
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+              target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              target="_blank"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              target="_blank"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-google"
+              href="http://youtube.com/"
+              target="_blank"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <h5>Contact</h5>
+            <a role="button" class="btn btn-link" href="tel:+14044316263"
+              ><i class="fa fa-phone"></i> 1-404-431-6263</a
+            ></br>
+            <a
+              role="button"
+              class="btn btn-link"
+              href="mailto:winters_2005@hotmail.com"
+              ><i class="fa fa-envelope-o"></i> winters_2005@<br>hotmail.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

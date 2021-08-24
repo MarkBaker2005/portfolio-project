@@ -1,0 +1,119 @@
+/* color frequent #09f515 */
+
+* {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Titillium Web", sans-serif;
+}
+
+h2 {
+  color: #b268d4;
+}
+
+header h1 {
+  font-family: "Carter One", cursive;
+  color: #09f515;
+  font-size: 90px;
+}
+
+.site-footer {
+  padding: 20px 0;
+  background-color: black;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(
+    to right,
+    #020008,
+    #000000,
+    #000,
+    #163018,
+    #09f515
+  );
+  color: white;
+}
+
+.navbar {
+  background-color: #0d772c;
+}
+
+.carousel {
+  border: solid #581577;
+}
+
+.fa-music {
+  color: #b268d4;
+}
+
+.imagine {
+  background-color: rgb(233, 233, 233);
+}
+
+.car-wrapper {
+  background-color: rgba(78, 78, 78, 0.411);
+}
+
+.carousel-inner img {
+  width: 640px;
+  height: 400px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagine h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.mission {
+  color: black;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.modal-header {
+  background-color: #09f515;
+}
+
+h5 {
+  color: skyblue;
+}
+
+.quiz {
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.currentQuestion {
+  text-align: left;
+}
+
+.status {
+  font-size: 18px;
+}
+
+.enjoy {
+  font-size: 30px;
+}
+
+.answers {
+  font-size: 25px;
+}
+
+.social {
+  margin-bottom: 30px;
+}
+
+.logo {
+  text-align: center;
+}
